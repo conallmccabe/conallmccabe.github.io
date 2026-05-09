@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Conall McCabe</title>
 
   <meta name="google-site-verification"
     content="6mQqQl20dPjvZKLw6y8ewzEPQox2TN-wdZQxKDiMuVU" />
