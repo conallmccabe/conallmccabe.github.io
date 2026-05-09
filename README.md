@@ -8,11 +8,6 @@
   <meta name="google-site-verification"
     content="6mQqQl20dPjvZKLw6y8ewzEPQox2TN-wdZQxKDiMuVU" />
 
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
-    rel="stylesheet">
-
   <style>
     body {
       margin: 0;
