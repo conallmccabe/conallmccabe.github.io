@@ -1,12 +1,20 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Conall McCabe</title>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-  <meta name="google-site-verification" content="6mQqQl20dPjvZKLw6y8ewzEPQox2TN-wdZQxKDiMuVU"/>
+
+  <meta name="google-site-verification"
+    content="6mQqQl20dPjvZKLw6y8ewzEPQox2TN-wdZQxKDiMuVU" />
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
+    rel="stylesheet">
+
   <style>
     body {
       margin: 0;
@@ -24,6 +32,7 @@
       position: sticky;
       top: 0;
       background-color: white;
+      z-index: 1000;
     }
 
     nav a {
@@ -39,7 +48,7 @@
     .container {
       max-width: 750px;
       margin: 2rem auto;
-      padding: 0 1rem;
+      padding: 0 1.2rem;
     }
 
     h1 {
@@ -50,18 +59,27 @@
     h2 {
       font-size: 1.1rem;
       margin-top: 3rem;
+      font-weight: normal;
+    }
+
+    p,
+    li {
+      max-width: 70ch;
     }
 
     img.profile {
       width: 300px;
       border-radius: 5px;
     }
+
     .small-image {
       width: 300px;
       border-radius: 5px;
       margin-top: 1rem;
     }
-    img.teaching, .contact img {
+
+    img.teaching,
+    .contact img {
       width: 100%;
       max-width: 500px;
       border-radius: 5px;
@@ -96,27 +114,47 @@
     a {
       color: #0033cc;
     }
-    .side-by-side-images {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
-}
 
-.side-by-side-images img {
-  width: 220px;
-  border-radius: 5px;
-  object-fit: cover;
-}
+    .side-by-side-images {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .side-by-side-images img {
+      width: 220px;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ccc;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
     @media (max-width: 600px) {
       .side-by-side {
         flex-direction: column;
+      }
+
+      img.profile {
+        width: 100%;
+        max-width: 300px;
       }
     }
   </style>
 </head>
 
 <body>
+
   <nav>
     <a href="#about">About</a>
     <a href="#publications">Publications</a>
@@ -124,30 +162,66 @@
   </nav>
 
   <div class="container">
+
+    <!-- About -->
     <section id="about">
       <h1>Conall McCabe</h1>
+
       <div class="side-by-side">
-        <img src="portrait.jpg" alt="Profile Picture" class="profile" />
+        <img src="portrait.jpg" alt="Portrait of Conall McCabe" class="profile" />
+
         <div>
-          <p>I'm a graduate student in Ana Maria Rey's group at JILA and the University of Colorado in Boulder. I'm interested in quantum simulation and metrology using ultracold atoms in optical lattices and tweezers.  </p>
+          <p>
+            I'm a graduate student in Ana Maria Rey's group at JILA and the
+            University of Colorado Boulder. My research interests include
+            quantum simulation and quantum metrology using ultracold atoms
+            in optical lattices and optical tweezers.
+          </p>
+
+          <p>
+            <a href="cv.pdf" target="_blank">Curriculum Vitae</a>
+          </p>
         </div>
       </div>
     </section>
 
+    <!-- Publications -->
     <section id="publications">
       <h2>Selected Publications</h2>
+
       <ul>
-        <li>C. McCabe, J. Boyd, K. Wang, M. Lebrat, C. Regal, A.M. Kaufman, A.M. Rey, L. Homeier, "Realizing multiorbital Emery models using ultracold atoms" arXiv:2604.22955</li>
+        <li>
+          C. McCabe, J. Boyd, K. Wang, M. Lebrat, C. Regal,
+          A.M. Kaufman, A.M. Rey, L. Homeier,
+          <a href="https://arxiv.org/abs/2604.22955" target="_blank">
+            “Realizing multiorbital Emery models using ultracold atoms”
+          </a>,
+          arXiv:2604.22955 (2026)
+        </li>
       </ul>
+    </section>
+
+    <!-- Contact -->
     <section id="contact" class="contact">
       <h2>Contact</h2>
-      <div class="side-by-side">
-        <ul>
-          <li>Email: conall.mccabe@colorado.edu</li>
-        </ul>
-      </div>
+
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:conall.mccabe@colorado.edu">
+            conall.mccabe@colorado.edu
+          </a>
+        </li>
+      </ul>
     </section>
+
+    <!-- Footer -->
+    <footer>
+      Last updated May 2026.
+    </footer>
+
   </div>
+
 </body>
 
 </html>
