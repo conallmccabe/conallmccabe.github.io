@@ -168,7 +168,7 @@
       <h1>Conall McCabe</h1>
 
       <div class="side-by-side">
-        <img src="portrait.jpg" alt="Portrait of Conall McCabe" class="profile" />
+        <img src="portrait_new.jpg" alt="Portrait of Conall McCabe" class="profile" />
 
         <div>
           <p>
