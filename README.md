@@ -185,11 +185,11 @@
           C. McCabe et. al.
 
             “Squeezed Cat qudits in an driven optical tweezer”
-          (in prep) (2026)
+          (in prep)
         </li>
         <li>
           C. McCabe et. al.
-            “Tunable interactions in alkaline-earth atoms via optical dressing”
+            “Tunable interactions in alkaline-earth atoms via optical dressing (in prep)”
         </li>
       </ul>
     </section>
