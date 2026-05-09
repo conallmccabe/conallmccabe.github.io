@@ -177,10 +177,6 @@
             quantum simulation and quantum metrology using ultracold atoms
             in optical lattices and optical tweezers.
           </p>
-
-          <p>
-            <a href="cv.pdf" target="_blank">Curriculum Vitae</a>
-          </p>
         </div>
       </div>
     </section>
