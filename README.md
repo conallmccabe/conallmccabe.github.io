@@ -170,7 +170,7 @@
 
     <!-- Publications -->
     <section id="publications">
-      <h2>Selected Publications</h2>
+      <h2>Publications</h2>
 
       <ul>
         <li>
